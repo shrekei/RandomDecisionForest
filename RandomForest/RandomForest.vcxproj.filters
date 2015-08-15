@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Task Specific">
+      <UniqueIdentifier>{713404ac-0be1-4bee-ab35-470f03eb20d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Forest">
+      <UniqueIdentifier>{cbb5502d-ed2f-4603-b71d-971940cff17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Forest\Header Files">
+      <UniqueIdentifier>{3fa1b293-b0c9-4948-98c1-0fe70a24bb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Forest\Source Files">
+      <UniqueIdentifier>{d44d4a0a-e8e2-41e0-b89b-22ebaae43df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemEntry">
+      <UniqueIdentifier>{465384a9-3142-4ae0-9b4d-483d1d0e84b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task Specific\Header Files">
+      <UniqueIdentifier>{a2e20733-cb0c-4d97-b47c-259731c9d15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task Specific\Source Files">
+      <UniqueIdentifier>{febb8d50-d35a-4dcf-8d63-ab225243bf0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classifier.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperParams.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDecisionTree.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomTest.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RDTNode.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthUtilities.h">
+      <Filter>Task Specific\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtilities.h">
+      <Filter>Task Specific\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateParser.h">
+      <Filter>Task Specific\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RDTNode.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSet.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDecisionTree.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTest.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
+      <Filter>SystemEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthUtilities.cpp">
+      <Filter>Task Specific\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateParser.cpp">
+      <Filter>Task Specific\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtilities.cpp">
+      <Filter>Task Specific\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

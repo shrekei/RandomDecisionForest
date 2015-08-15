@@ -1,0 +1,6 @@
+22      // max tree depth
+10000    // number of random tests
+1		// Projected Feature Num
+100     // counter threshold
+5       // number of trees
+1       // useSoftVoting 
